@@ -14,8 +14,8 @@ declare(strict_types=1);
 
 namespace Vmsfigueredo\Elasticsearch\Endpoints;
 
-use Elastic\Elasticsearch\ClientInterface;
-use Elastic\Elasticsearch\Traits\EndpointTrait;
+use Vmsfigueredo\Elasticsearch\ClientInterface;
+use Vmsfigueredo\Elasticsearch\Traits\EndpointTrait;
 
 abstract class AbstractEndpoint
 {

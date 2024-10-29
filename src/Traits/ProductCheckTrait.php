@@ -14,8 +14,8 @@ declare(strict_types = 1);
 
 namespace Vmsfigueredo\Elasticsearch\Traits;
 
-use Elastic\Elasticsearch\Exception\ProductCheckException;
-use Elastic\Elasticsearch\Response\Elasticsearch;
+use Vmsfigueredo\Elasticsearch\Exception\ProductCheckException;
+use Vmsfigueredo\Elasticsearch\Response\Elasticsearch;
 use Psr\Http\Message\ResponseInterface;
 
 trait ProductCheckTrait

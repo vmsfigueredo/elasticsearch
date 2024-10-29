@@ -14,7 +14,7 @@ declare(strict_types = 1);
 
 namespace Vmsfigueredo\Elasticsearch\Transport\Adapter;
 
-use Elastic\Elasticsearch\Transport\RequestOptions;
+use Vmsfigueredo\Elasticsearch\Transport\RequestOptions;
 use Psr\Http\Client\ClientInterface;
 use Symfony\Component\HttpClient\HttpClient;
 

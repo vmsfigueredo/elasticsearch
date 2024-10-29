@@ -14,7 +14,7 @@ declare(strict_types = 1);
 
 namespace Vmsfigueredo\Elasticsearch\Transport;
 
-use Elastic\Elasticsearch\Response\Elasticsearch;
+use Vmsfigueredo\Elasticsearch\Response\Elasticsearch;
 use Elastic\Transport\Async\OnSuccessInterface;
 use Psr\Http\Message\ResponseInterface;
 

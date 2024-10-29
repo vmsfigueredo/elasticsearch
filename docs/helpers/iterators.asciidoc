@@ -14,7 +14,7 @@ Here's an example:
 
 [source,php]
 ----
-use Elastic\Elasticsearch\Helper\Iterators\SearchResponseIterator;
+use Vmsfigueredo\Elasticsearch\Helper\Iterators\SearchResponseIterator;
 
 $search_params = [
     'scroll'      => '5m', // period to retain the search context
@@ -50,8 +50,8 @@ Here's an example:
 
 [source,php]
 ----
-use Elastic\Elasticsearch\Helper\Iterators\SearchHitIterator;
-use Elastic\Elasticsearch\Helper\Iterators\SearchResponseIterator;
+use Vmsfigueredo\Elasticsearch\Helper\Iterators\SearchHitIterator;
+use Vmsfigueredo\Elasticsearch\Helper\Iterators\SearchResponseIterator;
 
 $search_params = [
     'scroll'      => '5m', // period to retain the search context

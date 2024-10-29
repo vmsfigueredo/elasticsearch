@@ -14,12 +14,12 @@ declare(strict_types = 1);
 
 namespace Vmsfigueredo\Elasticsearch;
 
-use Elastic\Elasticsearch\Response\Elasticsearch;
-use Elastic\Elasticsearch\Traits\ClientEndpointsTrait;
-use Elastic\Elasticsearch\Traits\EndpointTrait;
-use Elastic\Elasticsearch\Traits\NamespaceTrait;
-use Elastic\Elasticsearch\Transport\AsyncOnSuccess;
-use Elastic\Elasticsearch\Transport\AsyncOnSuccessNoException;
+use Vmsfigueredo\Elasticsearch\Response\Elasticsearch;
+use Vmsfigueredo\Elasticsearch\Traits\ClientEndpointsTrait;
+use Vmsfigueredo\Elasticsearch\Traits\EndpointTrait;
+use Vmsfigueredo\Elasticsearch\Traits\NamespaceTrait;
+use Vmsfigueredo\Elasticsearch\Transport\AsyncOnSuccess;
+use Vmsfigueredo\Elasticsearch\Transport\AsyncOnSuccessNoException;
 use Elastic\Transport\Transport;
 use Http\Promise\Promise;
 use Psr\Http\Message\RequestInterface;

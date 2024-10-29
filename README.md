@@ -122,8 +122,8 @@ For instance, you can use the
 [php-http/mock-client](https://github.com/php-http/mock-client) as follows:
 
 ```php
-use Elastic\Elasticsearch\ClientBuilder;
-use Elastic\Elasticsearch\Response\Elasticsearch;
+use Vmsfigueredo\ElasticsearchClientBuilder;
+use Vmsfigueredo\ElasticsearchResponse\Elasticsearch;
 use Http\Mock\Client;
 use Nyholm\Psr7\Response;
 

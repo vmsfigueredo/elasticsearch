@@ -14,13 +14,13 @@ declare(strict_types = 1);
 
 namespace Vmsfigueredo\Elasticsearch;
 
-use Elastic\Elasticsearch\Exception\AuthenticationException;
-use Elastic\Elasticsearch\Exception\ConfigException;
-use Elastic\Elasticsearch\Exception\HttpClientException;
-use Elastic\Elasticsearch\Exception\InvalidArgumentException;
-use Elastic\Elasticsearch\Transport\Adapter\AdapterInterface;
-use Elastic\Elasticsearch\Transport\Adapter\AdapterOptions;
-use Elastic\Elasticsearch\Transport\RequestOptions;
+use Vmsfigueredo\Elasticsearch\Exception\AuthenticationException;
+use Vmsfigueredo\Elasticsearch\Exception\ConfigException;
+use Vmsfigueredo\Elasticsearch\Exception\HttpClientException;
+use Vmsfigueredo\Elasticsearch\Exception\InvalidArgumentException;
+use Vmsfigueredo\Elasticsearch\Transport\Adapter\AdapterInterface;
+use Vmsfigueredo\Elasticsearch\Transport\Adapter\AdapterOptions;
+use Vmsfigueredo\Elasticsearch\Transport\RequestOptions;
 use Elastic\Transport\Exception\NoAsyncClientException;
 use Elastic\Transport\NodePool\NodePoolInterface;
 use Elastic\Transport\Transport;

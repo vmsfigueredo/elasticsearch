@@ -14,7 +14,7 @@ declare(strict_types = 1);
 
 namespace Vmsfigueredo\Elasticsearch\Transport\Adapter;
 
-use Elastic\Elasticsearch\Transport\RequestOptions;
+use Vmsfigueredo\Elasticsearch\Transport\RequestOptions;
 use GuzzleHttp\RequestOptions As GuzzleOptions;
 use Psr\Http\Client\ClientInterface;
 

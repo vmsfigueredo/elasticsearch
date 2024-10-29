@@ -14,7 +14,7 @@ declare(strict_types=1);
 
 namespace Vmsfigueredo\Elasticsearch\Exception;
 
-use Elastic\Elasticsearch\Traits\ResponseTrait;
+use Vmsfigueredo\Elasticsearch\Traits\ResponseTrait;
 use Exception;
 
 /**

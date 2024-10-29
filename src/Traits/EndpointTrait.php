@@ -14,10 +14,10 @@ declare(strict_types = 1);
 
 namespace Vmsfigueredo\Elasticsearch\Traits;
 
-use Elastic\Elasticsearch\Client;
-use Elastic\Elasticsearch\Exception\ContentTypeException;
-use Elastic\Elasticsearch\Exception\MissingParameterException;
-use Elastic\Elasticsearch\Utility;
+use Vmsfigueredo\Elasticsearch\Client;
+use Vmsfigueredo\Elasticsearch\Exception\ContentTypeException;
+use Vmsfigueredo\Elasticsearch\Exception\MissingParameterException;
+use Vmsfigueredo\Elasticsearch\Utility;
 use Elastic\Transport\OpenTelemetry;
 use Elastic\Transport\Serializer\JsonSerializer;
 use Elastic\Transport\Serializer\NDJsonSerializer;

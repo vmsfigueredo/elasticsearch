@@ -16,12 +16,12 @@ namespace Vmsfigueredo\Elasticsearch\Response;
 
 use ArrayAccess;
 use DateTime;
-use Elastic\Elasticsearch\Exception\ArrayAccessException;
-use Elastic\Elasticsearch\Exception\ClientResponseException;
-use Elastic\Elasticsearch\Exception\ServerResponseException;
-use Elastic\Elasticsearch\Traits\MessageResponseTrait;
-use Elastic\Elasticsearch\Traits\ProductCheckTrait;
-use Elastic\Elasticsearch\Utility;
+use Vmsfigueredo\Elasticsearch\Exception\ArrayAccessException;
+use Vmsfigueredo\Elasticsearch\Exception\ClientResponseException;
+use Vmsfigueredo\Elasticsearch\Exception\ServerResponseException;
+use Vmsfigueredo\Elasticsearch\Traits\MessageResponseTrait;
+use Vmsfigueredo\Elasticsearch\Traits\ProductCheckTrait;
+use Vmsfigueredo\Elasticsearch\Utility;
 use Elastic\Transport\Exception\UnknownContentTypeException;
 use Elastic\Transport\Serializer\CsvSerializer;
 use Elastic\Transport\Serializer\JsonSerializer;

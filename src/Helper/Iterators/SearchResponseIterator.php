@@ -14,9 +14,9 @@ declare(strict_types = 1);
 
 namespace Vmsfigueredo\Elasticsearch\Helper\Iterators;
 
-use Elastic\Elasticsearch\ClientInterface;
-use Elastic\Elasticsearch\Exception\ClientResponseException;
-use Elastic\Elasticsearch\Exception\ServerResponseException;
+use Vmsfigueredo\Elasticsearch\ClientInterface;
+use Vmsfigueredo\Elasticsearch\Exception\ClientResponseException;
+use Vmsfigueredo\Elasticsearch\Exception\ServerResponseException;
 use Iterator;
 
 class SearchResponseIterator implements Iterator
