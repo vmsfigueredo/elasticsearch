@@ -12,7 +12,7 @@
  */
 declare(strict_types = 1);
 
-namespace Elastic\Elasticsearch\Traits;
+namespace Vmsfigueredo\Elasticsearch\Traits;
 
 use Elastic\Elasticsearch\Client;
 use Elastic\Elasticsearch\Exception\ContentTypeException;

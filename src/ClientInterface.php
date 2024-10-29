@@ -12,7 +12,7 @@
  */
 declare(strict_types = 1);
 
-namespace Elastic\Elasticsearch;
+namespace Vmsfigueredo\Elasticsearch;
 
 use Elastic\Elasticsearch\Response\Elasticsearch;
 use Elastic\Transport\Transport;

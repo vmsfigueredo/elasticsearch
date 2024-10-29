@@ -12,7 +12,7 @@
  */
 declare(strict_types = 1);
 
-namespace Elastic\Elasticsearch\Transport;
+namespace Vmsfigueredo\Elasticsearch\Transport;
 
 final class RequestOptions
 {

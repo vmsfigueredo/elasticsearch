@@ -12,7 +12,7 @@
  */
 declare(strict_types=1);
 
-namespace Elastic\Elasticsearch\Exception;
+namespace Vmsfigueredo\Elasticsearch\Exception;
 
 use Elastic\Elasticsearch\Traits\ResponseTrait;
 use Exception;

@@ -12,7 +12,7 @@
  */
 declare(strict_types = 1);
 
-namespace Elastic\Elasticsearch\Response;
+namespace Vmsfigueredo\Elasticsearch\Response;
 
 use ArrayAccess;
 use DateTime;

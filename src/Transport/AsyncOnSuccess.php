@@ -12,7 +12,7 @@
  */
 declare(strict_types = 1);
 
-namespace Elastic\Elasticsearch\Transport;
+namespace Vmsfigueredo\Elasticsearch\Transport;
 
 use Elastic\Elasticsearch\Response\Elasticsearch;
 use Elastic\Transport\Async\OnSuccessInterface;

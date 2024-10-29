@@ -12,7 +12,7 @@
  */
 declare(strict_types = 1);
 
-namespace Elastic\Elasticsearch\Transport\Adapter;
+namespace Vmsfigueredo\Elasticsearch\Transport\Adapter;
 
 use Elastic\Elasticsearch\Transport\RequestOptions;
 use GuzzleHttp\RequestOptions As GuzzleOptions;

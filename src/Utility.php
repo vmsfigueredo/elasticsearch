@@ -12,7 +12,7 @@
  */
 declare(strict_types = 1);
 
-namespace Elastic\Elasticsearch;
+namespace Vmsfigueredo\Elasticsearch;
 
 class Utility
 {

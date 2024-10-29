@@ -14,7 +14,7 @@
 
 declare(strict_types=1);
 
-namespace Elastic\Elasticsearch\Traits;
+namespace Vmsfigueredo\Elasticsearch\Traits;
 
 use Elastic\Elasticsearch\Endpoints\AsyncSearch;
 use Elastic\Elasticsearch\Endpoints\Autoscaling;

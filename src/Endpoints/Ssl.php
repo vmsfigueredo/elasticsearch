@@ -14,7 +14,7 @@
 
 declare(strict_types=1);
 
-namespace Elastic\Elasticsearch\Endpoints;
+namespace Vmsfigueredo\Elasticsearch\Endpoints;
 
 use Elastic\Elasticsearch\Exception\ClientResponseException;
 use Elastic\Elasticsearch\Exception\MissingParameterException;

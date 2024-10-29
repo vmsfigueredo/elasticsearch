@@ -12,7 +12,7 @@
  */
 declare(strict_types = 1);
 
-namespace Elastic\Elasticsearch\Helper\Iterators;
+namespace Vmsfigueredo\Elasticsearch\Helper\Iterators;
 
 use Elastic\Elasticsearch\ClientInterface;
 use Elastic\Elasticsearch\Exception\ClientResponseException;

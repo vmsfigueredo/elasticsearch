@@ -32,13 +32,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Elastic\\Elasticsearch\\": "src/"
+      "Vmsfigueredo\\Elasticsearch\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Elastic\\Elasticsearch\\Tests\\": "tests/",
-      "Elastic\\Elasticsearch\\Util\\": "util/"
+      "Vmsfigueredo\\Elasticsearch\\Tests\\": "tests/",
+      "Vmsfigueredo\\Elasticsearch\\Util\\": "util/"
     }
   },
   "scripts": {
